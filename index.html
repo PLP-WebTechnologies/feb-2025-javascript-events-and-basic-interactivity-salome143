@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JS Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Interactive Demo</h1>
+        
+        <!-- Event Listener Demo -->
+        <div class="demo-section">
+            <button id="clickBtn">Click Me</button>
+            <p id="clickOutput">Waiting for interaction...</p>
+        </div>
+        
+        <!-- Form Validation Demo -->
+        <div class="demo-section">
+            <form id="signupForm">
+                <input type="email" id="userEmail" placeholder="Enter your email" required>
+                <button type="submit">Submit</button>
+                <p id="formMessage"></p>
+            </form>
+        </div>
+        
+        <!-- Interactive Element Demo -->
+        <div class="demo-section">
+            <button id="toggleBtn">Toggle Secret Message</button>
+            <div id="secretMessage" class="hidden">
+                <p>✨ Congratulations! You found the secret message!</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
